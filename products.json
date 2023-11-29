@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "bertola",
+    "description": "pinza hemostatica para profundidad",
+    "price": 2000,
+    "thumbnail": "sin imagen",
+    "code": "IQ08",
+    "stock": 12
+  },
+  {
+    "id": 3,
+    "title": "halsted",
+    "description": "pinza hemostatica superficial",
+    "price": 1600,
+    "thumbnail": "sin imagen",
+    "code": "IQ10",
+    "stock": 10
+  }
+]

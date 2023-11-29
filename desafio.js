@@ -1,8 +1,11 @@
+
+
 class ProductManager {
     #id= 1
     getProducts = []
 
-    obtenerProducts(){
+    obtenerProducts(path){
+        this.path = path;
         return  this.getProducts
     }
     
@@ -17,6 +20,11 @@ class ProductManager {
             stock,
             id: this.#id++,
             }
+
+            
+      if (!title || !description || !price || !thumbnail || !code || !stock) {
+        return console.log("Todos los campos son obligatorios. Producto no agregado.")
+      }
             const codeExist = this.getProducts.find(product => product.code === code)
             if(codeExist) console.log (`El producto con code: ${code} ya existe`);
             this.getProducts.push (newProduct)
