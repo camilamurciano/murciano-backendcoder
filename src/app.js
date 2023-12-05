@@ -1,12 +1,6 @@
 const express = require('express')
 const ProductManager = require('./desafio2')
 
-//const app = express()
-//const port = 8080
-
-
-//const productManager = new ProductManager('./products.json')
-
 
 const app = express();
 const port = 8080;

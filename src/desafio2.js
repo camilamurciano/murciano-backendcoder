@@ -53,22 +53,7 @@ class ProductManager {
   getProducts() {
     return this.products
   }
- 
-  //async getProductsById(id) {
-   // try {
-      //  const dataRead = JSON.parse(await fs.readFile(this.path, "utf-8"))
-      //  const productFound = dataRead.find(prod => prod.id === id)
-     //   if(productFound){
-      //      return productFound;
-      //  }
-      //  else {
-      //      console.error("Producto no encontrado");
-      //      return null;
-      //  }
-   // } catch (error) {
-   //     console.log("Error al buscar el producto: ", error.message)
- //   }
-//}
+
 
 getProductsById(idProduct) {
 

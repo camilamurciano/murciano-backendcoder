@@ -46,23 +46,3 @@ productManager.addProduct("producto prueba","este es un producto prueba",200,"si
 console.log (productManager.obtenerProducts())
 console.log (productManager.getElementById(4)) //no existe el id 4
 
-/*[
-  {
-    "id": 1,
-    "title": "bertola",
-    "description": "pinza hemostatica para profundidad",
-    "price": 2000,
-    "thumbnail": "sin imagen",
-    "code": "IQ08",
-    "stock": 12
-  },
-  {
-    "id": 3,
-    "title": "tijera",
-    "description": "pinza hemostatica superficial",
-    "price": 1600,
-    "thumbnail": "sin imagen",
-    "code": "IQ10",
-    "stock": 10
-  }
-]*/
